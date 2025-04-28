@@ -64,3 +64,28 @@ void User::saveToJson(QJsonObject &json) const {
   ]
 }
 ```
+
+### Backlog 2: Basketball Game Engine
+**Feattures:**
+- Split-screen QtGL rendering
+- Real-time physics (projectile motion)
+```bnf
+void Court::calculateShot() {
+    float angle = 45.0f; // degrees
+    float power = 10.0f;
+    ballVelocityX = power * cos(qDegreesToRadians(angle));
+    ballVelocityY = power * sin(qDegreesToRadians(angle));
+}
+```
+- Defensive steal mechanics (hitbox detection)
+```bnf
+bool Court::attemptSteal(Player* defender) {
+    QPointF ballPos = ball->pos();
+    QRectF stealArea = defender->getStealZone();
+    return stealArea.contains(ballPos);
+}
+```
+
+
+
+
