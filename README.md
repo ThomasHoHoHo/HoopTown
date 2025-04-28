@@ -22,13 +22,13 @@ HoopTown is a fast-paced 2D basketball game featuring local multiplayer competit
 ## Product Backlog Implementation
 
 ### Backlog 1: User Management System 
-**Features**:
+**Features:**
 - Secure authentication flow (JWT-like token system)
 - Profile persistence with JSON storage
 - Birthday recognition system
 - Score history visualization
 
-**Implementation**:
+**Implementation:**
 ```bnf
 // User profile serialization
 void User::saveToJson(QJsonObject &json) const {
@@ -39,7 +39,7 @@ void User::saveToJson(QJsonObject &json) const {
 }
 ```
 
-**Data Management (JSON structure):
+**Data Management (JSON structure):**
 ```bnf
 {
   "users": [
