@@ -1,5 +1,5 @@
 # 🏀 Hoop Town 🏀  
-*1v1 Basketball Arcade Game with Qt GUI*
+1v1 Basketball Arcade Game with Qt GUI
 
 Project Owner: Thomas Ho
 
