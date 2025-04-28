@@ -1,0 +1,56 @@
+[
+    {
+        "dateOfBirth": "2007-04-22",
+        "firstName": "thomas",
+        "gender": "",
+        "lastName": "ho",
+        "password": "Getmein1?",
+        "profilePicture": "",
+        "scoreHistory": [
+            {
+                "playedAt": "2025-04-22T16:16:35",
+                "score": 0
+            },
+            {
+                "playedAt": "2025-04-22T16:16:35",
+                "score": 0
+            },
+            {
+                "playedAt": "2025-04-22T16:16:48",
+                "score": 0
+            },
+            {
+                "playedAt": "2025-04-22T16:16:48",
+                "score": 0
+            },
+            {
+                "playedAt": "2025-04-22T16:17:59",
+                "score": 0
+            },
+            {
+                "playedAt": "2025-04-22T16:17:59",
+                "score": 0
+            }
+        ],
+        "username": "thomasho"
+    },
+    {
+        "dateOfBirth": "2007-04-27",
+        "firstName": "thomas",
+        "gender": "",
+        "lastName": "ho",
+        "password": "Thomasho84121?",
+        "profilePicture": "",
+        "scoreHistory": [
+            {
+                "playedAt": "2025-04-27T18:11:48",
+                "score": 0
+            },
+            {
+                "playedAt": "2025-04-27T18:11:48",
+                "score": 0
+            }
+        ],
+        "username": "hohoho"
+    }
+]
