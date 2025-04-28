@@ -29,7 +29,7 @@ HoopTown is a fast-paced 2D basketball game featuring local multiplayer competit
 - Score history visualization
 
 **Implementation**:
-```cpp
+```bnf
 // User profile serialization
 void User::saveToJson(QJsonObject &json) const {
     json["firstName"] = firstName;
