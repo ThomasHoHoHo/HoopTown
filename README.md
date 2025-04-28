@@ -1,5 +1,6 @@
 # 🏀 Hoop Town 🏀  
 *1v1 Basketball Arcade Game with Qt GUI*
+Project Owner: Thomas Ho
 
 ## Overview:
 HoopTown is a fast-paced 2D basketball game featuring local multiplayer competition. Developed using modern C++ and Qt framework, this project emphasizes:
