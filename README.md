@@ -3,7 +3,7 @@
 
 Project Owner: Thomas Ho
 
-## Overview:
+## Project Overview:
 HoopTown is a fast-paced 2D basketball game featuring local multiplayer competition. Developed using modern C++ and Qt framework, this project emphasizes:
 - Responsive physics-based gameplay
 - Split-screen competitive mechanics
@@ -22,3 +22,13 @@ HoopTown is a fast-paced 2D basketball game featuring local multiplayer competit
 - Data Storage: JSON (Qt JSON module)
 - Authentication: SHA-256 password hashing
 - Build System: CMake 3.20+
+
+## Product Backlog Implementation
+
+### Backlog 1: User Management System ✅
+**Features**:
+- Secure authentication flow (JWT-like token system)
+- Profile persistence with JSON storage
+- Birthday recognition system
+- Score history visualization
+
