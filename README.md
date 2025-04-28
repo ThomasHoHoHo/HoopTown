@@ -2,7 +2,6 @@
 *1v1 Basketball Arcade Game with Qt GUI*
 
 ## Overview:
-
 HoopTown is a fast-paced 2D basketball game featuring local multiplayer competition. Developed using modern C++ and Qt framework, this project emphasizes:
 - Responsive physics-based gameplay
 - Split-screen competitive mechanics
@@ -15,3 +14,9 @@ HoopTown is a fast-paced 2D basketball game featuring local multiplayer competit
 - Real-time score tracking
 - 2-minute match timer
 - Crowd reaction animations
+
+## Tech Stack:
+- Game Engine: C++17, Qt 6.5
+- Data Storage: JSON (Qt JSON module)
+- Authentication: SHA-256 password hashing
+- Build System: CMake 3.20+
