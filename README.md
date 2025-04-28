@@ -4,11 +4,7 @@
 Project Owner: Thomas Ho
 
 ## Project Overview:
-HoopTown is a fast-paced 2D basketball game featuring local multiplayer competition. Developed using modern C++ and Qt framework, this project emphasizes:
-- Responsive physics-based gameplay
-- Split-screen competitive mechanics
-- User profile system with score tracking
-- Custom animation systems
+HoopTown is a fast-paced 2D basketball game featuring local multiplayer competition. Developed using modern C++ and Qt framework, this project emphasizes: responsive physics-based gameplay, split-screen competitive mechanics, user profile system with score tracking, custom animation systems.
 
 ## Key Gameplay Features:
 - Timed jump shots & dunk mechanics
