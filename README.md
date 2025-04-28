@@ -28,3 +28,39 @@ HoopTown is a fast-paced 2D basketball game featuring local multiplayer competit
 - Birthday recognition system
 - Score history visualization
 
+**Implementation**:
+```cpp
+// User profile serialization
+void User::saveToJson(QJsonObject &json) const {
+    json["firstName"] = firstName;
+    json["lastName"] = lastName;
+    json["dob"] = dob.toString(Qt::ISODate);
+    json["scores"] = QJsonArray::fromVariantList(scoreHistory);
+}
+```
+
+**Data Management (JSON structure):
+```bnf
+{
+  "users": [
+    {
+      "username": "player23",
+      "passwordHash": "a7f5f...",
+      "profile": {
+        "firstName": "LeBron",
+        "lastName": "James",
+        "dob": "1984-12-30",
+        "bestScore": 42
+      },
+      "matches": [
+        {
+          "date": "2024-03-15T15:22:00Z",
+          "score": 21,
+          "opponent": "CPU",
+          "result": "win"
+        }
+      ]
+    }
+  ]
+}
+```
