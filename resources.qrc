@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/Background.png</file>
+        <file>images/LeftBackBoard.png</file>
+        <file>images/LeftHoop.png</file>
+        <file>images/RightBackBoard.png</file>
+        <file>images/RightHoop.png</file>
+        <file>images/ScoreBoard.png</file>
+        <file>images/Crowd1.png</file>
+        <file>images/Crowd2.png</file>
+        <file>images/Crowd3.png</file>
+        <file>images/Crowd4.png</file>
+        <file>images/Crowd5.png</file>
+        <file>images/Player1.png</file>
+        <file>images/Player2.png</file>
+        <file>images/Player3.png</file>
+        <file>images/ball.png</file>
+        <file>images/Basketball.png</file>
+    </qresource>
+</RCC>
